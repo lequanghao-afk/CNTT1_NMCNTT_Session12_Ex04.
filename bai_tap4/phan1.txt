@@ -1,0 +1,14 @@
+Phần 1. Phân tích yêu cầu hệ thống SRS
+1.1. Yêu cầu chức năng (Functional Requirements)
+- Quản lý thông tin bệnh nhân: mã bệnh nhân, họ tên, ngày sinh, giới tính, số điện thoại.
+- Lưu trữ lịch sử khám bệnh, chẩn đoán và đơn thuốc.
+- Tìm kiếm, thêm, sửa và tra cứu hồ sơ bệnh nhân.
+- Hỗ trợ bác sĩ cập nhật kết quả khám bệnh.
+- Thống kê số lượng bệnh nhân theo từng loại bệnh.
+1.2. Yêu cầu phi chức năng (Non-functional Requirements)
+- Bảo mật: Chỉ người có quyền mới được truy cập hồ sơ bệnh án.
+- Phân quyền: Bác sĩ, nhân viên lễ tân và quản trị viên có quyền truy cập khác nhau.
+- Toàn vẹn dữ liệu: Hạn chế mất mát, sai lệch hoặc chỉnh sửa trái phép.
+- Sao lưu: Sao lưu dữ liệu định kỳ để có thể khôi phục khi xảy ra sự cố.
+- Hiệu năng: Tìm kiếm hồ sơ nhanh chóng khi dữ liệu tăng lên 1.000 bệnh nhân.
+- Riêng tư: Không công khai thông tin sức khỏe của bệnh nhân.
